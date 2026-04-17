@@ -52,20 +52,32 @@ EqCG98vvRDT69zytGAEDTke9R7oCgEMQB98YZQ3YWzPg
 
 Demostración
 Al ejecutar el cliente se pueden ver las 5 operaciones:
-1. CREATE - Creando tarea...
-   ✅ Tarea creada!
-
+Running client...
+  client.ts:
+    === DEMOSTRACIÓN CRUD ===
+    Program ID: EqCG98vvRDT69zytGAEDTke9R7oCgEMQB98YZQ3YWzPg
+    PDA de la tarea: 2ZFAirsbroY3yugdJKWSG1nV8mysYKxACQWifCRb1h2W
+    
+    1. CREATE - Creando tarea...
+       ✅ Tarea creada! TX: 4tcYfUCJA8bpE9g7CrRfMNE5vJXT2EKUxzugG2f6g8EqJ3njKjA8NxFGn7W7fwEMQae6QJrzxp4s9GPZXA2NxfgJ
+    
 2. READ - Leyendo tarea...
-   📋 Título: Aprender Solana
-
+       📋 Título: Aprender Solana
+       📝 Descripción: Completar el bootcamp
+       ✅ Completada: false
+    
 3. UPDATE - Actualizando tarea...
-   ✅ Tarea actualizada!
-
-4. TOGGLE - Marcando como completada...
-   ✅ Completada: true
-
+       ✅ Tarea actualizada! TX: 5dfFSw1w1P38k8XtrDrBsRZSwmxWxVmBcM6PsuWNU9nTe5VeaFoyS99SE34oherJ5ZMhndZp8CHonzRn7B5WQDz2
+       📋 Nuevo título: Aprender Solana con Anchor
+    
+4. UPDATE (Toggle) - Marcando como completada...
+       ✅ Estado cambiado! TX: 3aSYqspcbTodPeBgGwEoxG6twysqLwDMRi47zV1X6MLWqoLTCgDsHCL6hEccM834hxuSSoaLFcFsjEkkjcrFTMDt
+       ✅ Completada: true
+    
 5. DELETE - Eliminando tarea...
-   ✅ Tarea eliminada correctamente
-
+       ✅ Tarea eliminada! TX: 642WG3DWqeDaD7XR9mnoL4jcobs2BCmkoH45dLk1vH9apsB2JW2zRSjT9smgfJv1nQBfrijCGKrZHSbv69sCabCr
+       ✅ Verificado: La tarea ya no existe en la blockchain
+    
+=== CRUD COMPLETADO EXITOSAMENTE ===
 Autor:
 Colin Martinez Josef Bnejamin - Bootcamp Solana Developer
